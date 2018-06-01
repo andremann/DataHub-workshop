@@ -58,15 +58,4 @@ Hands-on (1h):
 	SciKit Learn http://scikit-learn.org/stable/
 
 
-Other ideas: 
-Carto (spatial data analysis https://carto.com/ )
-Web services : IBM Watson, AWS, Azure
-R / Rapidminer / Weka …
-Tensorflow (???) 
-	
-	
-	datImange
-
-
-
 
