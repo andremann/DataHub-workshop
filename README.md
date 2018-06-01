@@ -14,8 +14,8 @@ The workshop is organised within the framework and planned activities of the EU 
 
 ## Sessions
 ### 1. Stream data and IoT: from capturing sensor data to their visualisation
-Chairs: Andrea Mannocci, Niaz Chowdhuri  
-Abstract : In this session we will showcase a set of technologies for acquiring big data, modeling and managing them in scalable way, and producing cogent analytics. In particular we will: i) demonstrate how to use sensors and IoT devices to create data streams from remote locations and collect those data at the datahub end; ii) showcase the capabilities of the ELK stack (Elasticsearch + Kibana, in this case) for fast prototyping lightweight interfaces and get sense out of your data.
+**Chairs:** Andrea Mannocci, Niaz Chowdhuri  
+**Abstract:** In this session we will showcase a set of technologies for acquiring big data, modeling and managing them in scalable way, and producing cogent analytics. In particular we will: i) demonstrate how to use sensors and IoT devices to create data streams from remote locations and collect those data at the datahub end; ii) showcase the capabilities of the ELK stack (Elasticsearch + Kibana, in this case) for fast prototyping lightweight interfaces and get sense out of your data.
 Presentation (30’) : ElasticSearch, Kibana  
 Hands-on (1h) : 
 - Streamed datasets
