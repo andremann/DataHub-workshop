@@ -1,5 +1,5 @@
 # DataHub-workshop
-This repository is intended as a companion guide through the **DataHub Workshop** help at the Knowledge Media Institute (KMi, Open University, Milton Keynes, UK) on the 12th of June 2018.
+This repository is intended as a companion guide through the DataHub Workshop help at the Knowledge Media Institute (KMi, Open University, Milton Keynes, UK) on the 12th of June 2018.
 The workshop is organised within the framework and planned activities of the EU project CityLabs (http://www.citylabs.org.uk).
 
 ## Agenda

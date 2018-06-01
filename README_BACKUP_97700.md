@@ -3,6 +3,19 @@ This repository is intended as a companion guide through the **DataHub Workshop*
 The workshop is organised within the framework and planned activities of the EU project CityLabs (http://www.citylabs.org.uk).
 
 ## Agenda
+<<<<<<< HEAD
+08:30 - 09:00 Registration and Intro
+09:00 - 10:30 Stream data and IoT : from capturing sensor data to their visualisation
+A session to showcase a set of technologies for acquiring, modeling and managing big data streamed by sensors and IoT devices
+10:30 - 12:00 Big Data processing and analytics
+Introducing basic principles on designing and working with large tables. The hands-on session will show how to load, process, and query large data tables using the Hadoop stack for tabular data (Hue, PIG and HIVE).
+12:00 - 13:30 Lunch
+13:30 - 14:00 “Datawareness” - big data and privacy challenges 
+	Exploring privacy concerns emerging from the process of big data processing, and introducing principles and regulations of the newly implemented European regulation on privacy (EUGDPR). 
+14:00 - 15:30 Revealing insights with Data Science techniques 
+	Showing how to use basic Machine Learning techniques (regression, classification, clustering) to reveal patterns hidden in data
+15:30 - 16:00 Wrap-up 
+=======
 **08:30 - 09:00** Registration and Intro       
 **09:00 - 10:30** Stream data and IoT: from capturing sensor data to their visualisation. A session to showcase a set of technologies for acquiring, modeling and managing big data streamed by sensors and IoT devices  
 **10:30 - 12:00** Big Data processing and analyticsIntroducing basic principles on designing and working with large tables. The hands-on session will show how to load, process, and query large data tables using the Hadoop stack for tabular data (Hue, PIG and HIVE)  
@@ -10,6 +23,7 @@ The workshop is organised within the framework and planned activities of the EU 
 **13:30 - 14:00** “Datawareness” - big data and privacy challenges. Exploring privacy concerns emerging from the process of big data processing, and introducing principles and regulations of the newly implemented European regulation on privacy (EUGDPR)  
 **14:00 - 15:30** Revealing insights with Data Science techniques. Showing how to use basic Machine Learning techniques (regression, classification, clustering) to reveal patterns hidden in data  
 **15:30 - 16:00** Wrap-up  
+>>>>>>> c219e327f1be4be73230216fdb2ce453e18fbebd
 
 
 ## Sessions
