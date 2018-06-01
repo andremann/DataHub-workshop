@@ -1,9 +1,9 @@
 # DataHub-workshop
-This repository is intended as a companion guide through the DataHub Workshop help at the Knowledge Media Institute (KMi, Open University, Milton Keynes, UK) on the 12th of June 2018.
+This repository is intended as a companion guide through the **DataHub Workshop** help at the Knowledge Media Institute (KMi, Open University, Milton Keynes, UK) on the 12th of June 2018.
 The workshop is organised within the framework and planned activities of the EU project CityLabs (http://www.citylabs.org.uk).
 
 ## Agenda
-08:30 - 09:00 Registration and Intro 
+08:30 - 09:00 Registration and Intro
 09:00 - 10:30 Stream data and IoT : from capturing sensor data to their visualisation
 A session to showcase a set of technologies for acquiring, modeling and managing big data streamed by sensors and IoT devices
 10:30 - 12:00 Big Data processing and analytics
