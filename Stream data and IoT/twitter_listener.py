@@ -1,7 +1,6 @@
 import datetime
 import random
 import time
-import logging
 import logging.handlers
 from secrets import *
 from requests.exceptions import ConnectionError
@@ -12,10 +11,10 @@ from elasticsearch_dsl.connections import connections
 from elasticsearch_dsl import Mapping, GeoPoint, Date
 
 
-LOGGER = logging.getLogger('Tweet_indexer')
+LOGGER = logging.getLogger('Tweet_listener')
 LOGGER.setLevel(logging.DEBUG)
 # rotating file handler
-FH = logging.handlers.RotatingFileHandler('tweet_logger.log', maxBytes=10000000, backupCount=1)
+FH = logging.handlers.RotatingFileHandler('tweet_listener.log', maxBytes=10000000, backupCount=1)
 FH.setLevel(logging.INFO)
 # console handler
 CH = logging.StreamHandler()
@@ -44,13 +43,13 @@ class TweetStreamer(TwythonStreamer):
         text = data['text'].lower() if data['truncated'] is False else data['extended_tweet']['full_text'].lower()
         sia = SentimentIntensityAnalyzer()
         scores = sia.polarity_scores(text)
-        data['sentiment'] = scores['compound']
+        data['sentiment'] = scores['compound'] * 100
 
         # Indexing
         self.es.index(index=TARGET_INDEX, doc_type=DOC_TYPE, body=data)
 
     def on_error(self, status_code, data):
-        LOGGER.error(status_code)
+        LOGGER.error('Error code: %s', status_code)
 
     def on_timeout(self):
         LOGGER.error('The streaming API went timeout!!')
@@ -67,23 +66,32 @@ def evaluate_centroid(bb_coordinates):
 def main():
     nltk.download('vader_lexicon')
 
-    # Prepare ES mappings
-    mapping = Mapping('tweet')
+    # Prepare index mappings
+    mapping = Mapping(DOC_TYPE)
     mapping.field('centroid', GeoPoint())
     mapping.field('timestamp_ms', Date())
-    mapping.save('twitter')
+    mapping.save(TARGET_INDEX)
 
     try:
-        twitter_api = Twython(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+        # API Documentation
+        # https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter
         streaming_api = TweetStreamer(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
         # Select bounding box here: http://boundingbox.klokantech.com
         mk_ltn_nham = '-1.0282,51.8575,-0.3249,52.2864' # Milton Keynes + Luton + N'hampton
+        uk = '-11.21,50.08,1.56,58.98' # UK
         us_can = '-126.95,24.7,-59.68,50.01' # US + Canada
         eu_nafr = '-30.2,26.5,52.9,71.0' # Europe + north africa
-        streaming_api.statuses.filter(locations=us_can)
+
+        # Keywords are expressed as a comma-separated list
+        terms = 'gdpr'
+
+        # Disclaimer 1: Twitter Streaming API cannot filter by terms AND location!
+        # Disclaimer 2: The API returns an incredibly small subset of tweets...
+        # streaming_api.statuses.filter(track=terms)
+        streaming_api.statuses.filter(locations=uk)
     except ConnectionError as err:
-        LOGGER.error('Connection error: %s', err)
+        LOGGER.error('Connection error! %s', err)
 
 
 if __name__ == '__main__':
