@@ -52,4 +52,5 @@ Hands-on (1h):
 	SciKit Learn http://scikit-learn.org/stable/
 
 
-
+## Links (accessible during the workshop)
+Jupyterhub (Python notebooks) -> http://212.219.130.96:8000
