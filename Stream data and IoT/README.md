@@ -12,7 +12,8 @@ Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSX
 - Dataset: https://download.elastic.co/demos/kibana/gettingstarted/accounts.zip
 
 ### What to do
-1. Load the dataset on Elasticsearch `curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json`
+1. Load the dataset on Elasticsearch    
+`curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json`
 1. Head to Kibana  -> http://212.219.130.96:5601
 1. Create the index pattern on Kibana
 1. Slice and dice the dataset
