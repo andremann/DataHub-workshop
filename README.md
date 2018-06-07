@@ -52,6 +52,4 @@ Hands-on (1h):
 	SciKit Learn http://scikit-learn.org/stable/
 
 
-## Links (accessible during the workshop)
-SSH login -> `ssh -p 5022 <username>@212.219.130.96`      
-Jupyterhub (Python notebooks) -> http://212.219.130.96:8000
+
