@@ -31,7 +31,7 @@ Hands-on (1h):
 **Abstract:** Introducing basic principles on designing and working with large tables. The hands-on session will show how to load, process, and query large data tables using the Hadoop stack for tabular data (Hue, PIG and HIVE).  
 Presentation (30’): Hadoop, Pig, Hive + Operations on large datasets  
 Hands-on (1h): Using the Big Data cluster on three datasets:
-- from session 1)
+- from session 1
 - Text analytics (e.g. Gutenberg)
 - Secklow Sounds chunk of texts 
 
