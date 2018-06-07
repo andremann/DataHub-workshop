@@ -20,7 +20,7 @@ Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSX
 
 #### What to do
 1. Launch the provided Python script and collect some tweets
-1. Head to Kibana  -> http://212.219.130.96:5601
+1. Head to Kibana  -> 
 2. Go on Kibana and have fun
 
 
