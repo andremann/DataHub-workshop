@@ -16,16 +16,9 @@ The workshop is organised within the framework and planned activities of the EU 
 ### 1. Stream data and IoT: from capturing sensor data to their visualisation
 **Chairs:** Andrea Mannocci, Niaz Chowdhuri  
 **Abstract:** In this session we will showcase a set of technologies for acquiring big data, modeling and managing them in scalable way, and producing cogent analytics. In particular we will: i) demonstrate how to use sensors and IoT devices to create data streams from remote locations and collect those data at the datahub end; ii) showcase the capabilities of the ELK stack (Elasticsearch + Kibana, in this case) for fast prototyping lightweight interfaces and get sense out of your data.  
-Presentations (20' + 10’):
-	- Sensors and IoT devices
-	- ElasticSearch, Kibana  
-Hands-on (1h):
-- Internet of Things:
-	- Use case: refrigerators monitoring (CityLabs activity)
-- Lightwight analytics and visualisation
-	- Stream data
-		- Twitter API
-	- Mock-up bank accounts
+1st part: Sensors and IoT devices with hand-on (30') 
+2nd part: Lightwight analytics and visualisation with hand-on (60')
+
 
 ### 2. Working with large tables: Big Data processing and analytics
 **Chairs:** Enrico Daga  
