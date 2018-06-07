@@ -1,5 +1,4 @@
 .vscode
 __pycache__
 *.log*
-Revealing-insights-with-Data-Science-techniques/data/*
 Stream-data-and-iot/secrets.py
