@@ -2,10 +2,20 @@
 
 Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSXv-Cx7A06buMqZgWkCxlP9yik
 
-  
 ## 1st part
-@Niaz
+### Key points
+1. Introduction to the Internet of Things (IoT)
+1. Looking at IoT Use Cases
+1. Hands-on experience with an IoT device
 
+### Task: Exploring WirelessTag used by a CityLabs SME
+#### Requirements for this task
+- WirelessTag Dashboard and/or App
+
+#### What to do
+1. Launch the dashboard using the credentials provided
+1. Getting Familiarised with the functionalities of the WirelessTag
+1. Introduction to the IFTTT and how it can be used with the WirelessTag and other IoT devices.
 
 ## 2nd part
 
