@@ -48,6 +48,8 @@ Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSX
 #### Requirements for this task
 - Dataset: https://download.elastic.co/demos/kibana/gettingstarted/accounts.zip
 
+*Note:* the dataset has been loaded already on the virtual machine.
+
 #### What to do
 1. Load the dataset on Elasticsearch    
 `curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json`
