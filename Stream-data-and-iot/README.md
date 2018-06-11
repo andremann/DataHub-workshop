@@ -2,7 +2,7 @@
 Chairs: Andrea Mannocci, Niaz Chowdhuri
 
 ## 1st part
-Chair: Niaz Chowdhuri
+Chair: Niaz Chowdhuri   
 Slides are available here: ????
 ### Key points
 1. Introduction to the Internet of Things (IoT)
@@ -21,7 +21,7 @@ Slides are available here: ????
 
 
 ## 2nd part
-Chair: Andrea Mannocci
+Chair: Andrea Mannocci   
 Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSXv-Cx7A06buMqZgWkCxlP9yik
 
 ### Key points
