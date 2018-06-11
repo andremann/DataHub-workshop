@@ -15,9 +15,9 @@ The workshop is organised within the framework and planned activities of the EU 
 ## Sessions
 ### 1. Stream data and IoT: from capturing sensor data to their visualisation
 **Chairs:** Andrea Mannocci, Niaz Chowdhuri  
-**Abstract:** In this session we will showcase a set of technologies for acquiring big data, modeling and managing them in scalable way, and producing cogent analytics. In particular we will: i) demonstrate how to use sensors and IoT devices to create data streams from remote locations and collect those data at the datahub end; ii) showcase the capabilities of the ELK stack (Elasticsearch + Kibana, in this case) for fast prototyping lightweight interfaces and get sense out of your data.  
-1st part: Sensors and IoT devices with hand-on (30') 
-2nd part: Lightwight analytics and visualisation with hand-on (60')
+**Abstract:** In this session we will showcase a set of technologies for acquiring big data, modeling and managing them in scalable way, and producing cogent analytics. In particular we will: i) demonstrate how to use sensors and IoT devices to create data streams from remote locations and collect those data at the datahub end; ii) showcase the capabilities of the ELK stack (Elasticsearch + Kibana, in this case) for fast prototyping lightweight interfaces and get sense out of your data.   
+1st part: Sensors and IoT devices with hands-on (30')    
+2nd part: Lightwight analytics and visualisation with hands-on (60')
 
 
 ### 2. Working with large tables: Big Data processing and analytics
@@ -39,7 +39,7 @@ No hands-on.
 
 ### 4. Revealing insights with Data Science techniques
 **Chairs:** Emanuele Bastianelli, Alessio Antonini  
-**Abstract:** The focus of this session will be on basic Machine Learning techniques for Data Analysis. We will show their application to a common dataset of interest, as well as introducing fundamental concepts to understand the quality of the analysis. The hands-on part will show how to use a common off-the-shelf library to perform some basic data analysis in Python.  
+**Abstract:** The focus of this session will be on basic Machine Learning (ML) techniques for Data Analysis. We will show their application to a common dataset of interest, as well as introducing fundamental concepts to understand the quality of the analysis. The hands-on part will show how to use a common off-the-shelf library to perform some basic data analysis in Python.  
 Presentation (30’): Basic principles of Machine Learning  (regression, classification, clusters).   
 Hands-on (1h):
 2-3 ML solutions to extract useful patterns from data
