@@ -34,6 +34,9 @@ Slides are available here: https://drive.google.com/open?id=1oSj0FM02GdWm3SC-XSX
 - Twitter API keys
 - Python 3
 - Libraries: Twithon, Elasticsearch-py, Elasticsearch-dsl
+- Elasticsearch and Kibana running on your machine
+
+*Note:* We have a pre-canned Virtual Machine, dedicated to our workshop.
 
 #### What to do
 1. Create index pattern
