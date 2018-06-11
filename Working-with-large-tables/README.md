@@ -6,14 +6,14 @@ Seeting up HIVE session:
 
 TODO: INSERT IMAGE
 
-### 1 Compute Term Vectors
+### Step 1 - Compute Term Vectors
 From texts to term vectors
 
 - Input: gutenberg_docs.tsv 
 - Output: gutenberg_terms.tsv 
 - Task: Explore data
 
-(Already done, as complicated and time consuming. Output file is in the Group_0 folder.)
+(Already done, as complicated and time consuming. Output file is in the ```Group_0``` folder.)
 
 This step involves a set of NLP techniques:
 
@@ -22,6 +22,7 @@ This step involves a set of NLP techniques:
 - Stemming (going -> go)
 - Abstract (12, 1.000, 20% -> <NUMBER>)
 
+***Important: in what follows replace X with your group number!!!***
 
 Create the HIVE table mapped to the files ```gutenberg\_docs.tsv```
 ```
@@ -44,7 +45,7 @@ SELECT COUNT(ID) FROM citylabs_workshop.gutenberg_docs_X;
 -- 1.2 AVG(LEN) GUTENBERG_DOCS_
 SELECT AVG(LEN) FROM citylabs_workshop.gutenberg_docs_X;
 ```
-***Remember to replace X with your group number!!!***
+*(Remember to replace X with your group number!!!)*
 ```
 CREATE EXTERNAL TABLE citylabs.gutenberg_terms 
     (DOC STRING, POSITION INT, TERM STRING) 
@@ -67,7 +68,7 @@ GROUP BY DOC ORDER BY LENGTH DESC;
 Lookup book id Gutenberg-11800 as follows:
 http://www.gutenberg.org/ebooks/11800
 
-### 2 Compute Terms Frequency (TF) 
+### Step 2 - Compute Terms Frequency (TF) 
 
 a) From term word vectors to word counts 
 
@@ -75,7 +76,7 @@ b) Generate doc size from word counts
 
 Task: run PIG script to produce the output file:
 
-***Remember to replace X with your group number!!!***
+*(Remember to replace X with your group number!!!)*
 ```
 set mapreduce.map.memory.mb    2048 
 set mapreduce.reduce.memory.mb 5120 
@@ -113,16 +114,15 @@ INTO '/project/citylabs-workshop/group_X/term_freqs.tsv';
 Execution should take approximately 4 minutes.
 
 
-### 3 Compute Inverse Document Frequencies (IDF)
+### Step 3 - Compute Inverse Document Frequencies (IDF)
 Compute inverse document frequences:
 
-Input: term_freqs.tsv
-
-Output: term_usages_idf.tsv
+- Input: term_freqs.tsv
+- Output: term_usages_idf.tsv
 
 Task: run PIG script to produce the output file
 
-***Remember to replace X with your group number!!!***
+*(Remember to replace X with your group number!!!)*
 ```
 set mapreduce.map.memory.mb    2048 
 set mapreduce.reduce.memory.mb 5120 
@@ -149,7 +149,7 @@ STORE term_usages_idf INTO '/project/citylabs-workshop/group_X/term_usages_idf.t
 ```
 Execution should take approximately 4 minutes.
 
-### 4 Compute TF/IDF
+### Step 4 - Compute TF/IDF
 Generate IDF and compute TF/IDF
 
 - Input: term_usages_idf.tsv
