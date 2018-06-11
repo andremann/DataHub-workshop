@@ -1,0 +1,161 @@
+{
+    "created_at": "Mon Jun 11 14:18:11 +0000 2018",
+    "id": 1006178788286390272,
+    "id_str": "1006178788286390272",
+    "text": "@Titanheat @JessEllmoreVGUK @TomGoetz_ @S1Whysall @vaillantuk They’re the main reason why I’ve made the switch mate.",
+    "display_text_range": [
+        62,
+        116
+    ],
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": False,
+    "in_reply_to_status_id": 1006178483083644928,
+    "in_reply_to_status_id_str": "1006178483083644928",
+    "in_reply_to_user_id": 3290937360,
+    "in_reply_to_user_id_str": "3290937360",
+    "in_reply_to_screen_name": "Titanheat",
+    "user": {
+        "id": 300556241,
+        "id_str": "300556241",
+        "name": "Chris Pringle",
+        "screen_name": "PringleChris",
+        "location": None,
+        "url": None,
+        "description": "Owner of @CPGASSOLUTIONS and @safetysuperhero North East ambassador. Follow back all plumbers/gas engineers. #regardthecard #sightforsoreinstalls",
+        "translator_type": "none",
+        "protected": False,
+        "verified": False,
+        "followers_count": 2756,
+        "friends_count": 1832,
+        "listed_count": 14,
+        "favourites_count": 36724,
+        "statuses_count": 14844,
+        "created_at": "Tue May 17 23:44:07 +0000 2011",
+        "utc_offset": None,
+        "time_zone": None,
+        "geo_enabled": True,
+        "lang": "en",
+        "contributors_enabled": False,
+        "is_translator": False,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": False,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": True,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1000480266723450880/Nw3G-rtq_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1000480266723450880/Nw3G-rtq_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/300556241/1516375017",
+        "default_profile": True,
+        "default_profile_image": False,
+        "following": None,
+        "follow_request_sent": None,
+        "notifications": None
+    },
+    "geo": None,
+    "coordinates": None,
+    "place": {
+        "id": "18859346bb6c3837",
+        "url": "https://api.twitter.com/1.1/geo/id/18859346bb6c3837.json",
+        "place_type": "city",
+        "name": "Washington",
+        "full_name": "Washington, England",
+        "country_code": "GB",
+        "country": "United Kingdom",
+        "bounding_box": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -1.56193,
+                        54.875678
+                    ],
+                    [
+                        -1.56193,
+                        54.928141
+                    ],
+                    [
+                        -1.489129,
+                        54.928141
+                    ],
+                    [
+                        -1.489129,
+                        54.875678
+                    ]
+                ]
+            ]
+        },
+        "attributes": {}
+    },
+    "contributors": None,
+    "is_quote_status": False,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "Titanheat",
+                "name": "Titan Heating",
+                "id": 3290937360,
+                "id_str": "3290937360",
+                "indices": [
+                    0,
+                    10
+                ]
+            },
+            {
+                "screen_name": "JessEllmoreVGUK",
+                "name": "Jess Ellmore",
+                "id": 953579099058065409,
+                "id_str": "953579099058065409",
+                "indices": [
+                    11,
+                    27
+                ]
+            },
+            {
+                "screen_name": "TomGoetz_",
+                "name": "Tom Goetz 🤘🏼",
+                "id": 834334418915487745,
+                "id_str": "834334418915487745",
+                "indices": [
+                    28,
+                    38
+                ]
+            },
+            {
+                "screen_name": "S1Whysall",
+                "name": "Simon Whysall",
+                "id": 583559713,
+                "id_str": "583559713",
+                "indices": [
+                    39,
+                    49
+                ]
+            },
+            {
+                "screen_name": "vaillantuk",
+                "name": "Vaillant UK",
+                "id": 198530076,
+                "id_str": "198530076",
+                "indices": [
+                    50,
+                    61
+                ]
+            }
+        ],
+        "symbols": []
+    },
+    "favorited": False,
+    "retweeted": False,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1528726691682"
+}
