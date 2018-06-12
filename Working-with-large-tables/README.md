@@ -2,18 +2,17 @@
 
 ### Preparation
 
+Access the HUE interface from your Web browser.
 - Go to Menu > Browsers > Files
 - - Locate folder /project/citylabs-workshop
-- - Locate my folder: /project/citylabs-workshop/group-0
-- - Locate your folder /project/citylabs-workshop/group-X
+- - Locate __my__ folder: /project/citylabs-workshop/group-0
+- - Locate __your__ folder /project/citylabs-workshop/group-X
 - - - X = (1,2,3,4,5)
+
 - Open in separate Tabs:
 - - Query > HIVE (right-click, open in new tab)
 - - Query > PIG (right-click, open in new tab)
-- Setup the HIVE execution environment in your browser:
-
-![alt text](https://raw.githubusercontent.com/andremann/DataHub-workshop/master/Working-with-large-tables/images/setup-hive-session.png)
-
+- Inspect the Saved Queries Tab below the input text area. They contain the set of HIVE queries and PIG scripts mentioned in this tutorial.
 
 ### Step 1 - Compute Term Vectors
 From texts to term vectors
