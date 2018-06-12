@@ -80,7 +80,7 @@ Lookup book id Gutenberg-11800 as follows:
 
 http://www.gutenberg.org/ebooks/2981
 
-http://www.gutenberg.org/ebooks/35830
+Try 5307, 19116, 1, 1234.
 
 ### Step 2 - Compute Terms Frequency (TF) 
 
