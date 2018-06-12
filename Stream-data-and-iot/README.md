@@ -1,9 +1,9 @@
 # Session: Stream data and IoT
-Chairs: Andrea Mannocci, Niaz Chowdhuri
+Chairs: Andrea Mannocci, Niaz Chowdhury
 
 ## 1st part
 Chair: Niaz Chowdhuri   
-Slides are available here: ????
+Slides are available here: https://bit.ly/2MkZ5I0
 ### Key points
 1. Introduction to the Internet of Things (IoT)
 1. Looking at IoT Use Cases
