@@ -1,5 +1,5 @@
 # Session: Stream data and IoT
-Chairs: Andrea Mannocci, Niaz Chowdhuri
+Chairs: Andrea Mannocci, Niaz Chowdhury
 
 ## 1st part
 Chair: Niaz Chowdhuri   
