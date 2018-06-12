@@ -3,7 +3,7 @@ Chairs: Andrea Mannocci, Niaz Chowdhuri
 
 ## 1st part
 Chair: Niaz Chowdhuri   
-Slides are available here: ????
+Slides are available here: https://docs.google.com/presentation/d/1vMs2fj6Lm2tErXB7q5CTo7dkTFJZXL3UumG2yN10xRI/edit?usp=sharing
 ### Key points
 1. Introduction to the Internet of Things (IoT)
 1. Looking at IoT Use Cases
