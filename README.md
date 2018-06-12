@@ -46,4 +46,7 @@ Presentation (30’): data ethics, data licensing and policies
 No hands-on.
 
 
-
+## Links
+SSH → workshop.bigdata.kmi.org
+Jupiterhub → http://workshop.bigdata.kmi.org:8000
+Kibana → http://workshop.bigdata.kmi.org:5601
