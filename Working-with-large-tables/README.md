@@ -134,7 +134,6 @@ INTO '/project/citylabs-workshop/group-X/term_freqs.tsv';
 ```
 Execution should take approximately 10 minutes.
 
-
 ### Step 3 - Compute Inverse Document Frequencies (IDF)
 Compute inverse document frequences:
 
@@ -175,6 +174,15 @@ Execution should take approximately 5 minutes.
 Task: (HIVE) Inspect term frequency and inverse document frequency of Books ID: 1, 1234, 5307, 19116
 
 ```
+-- 3.1 - TABLE TERM_USAGES_IDF   
+create table citylabs_workshop.terms_usages_idf_X
+(DOC STRING, TERM STRING, TF DOUBLE, IDF DOUBLE) 
+ROW FORMAT DELIMITED  
+FIELDS TERMINATED BY  '\t' 
+LINES TERMINATED BY '\n' 
+STORED AS TEXTFILE 
+LOCATION '/project/citylabs-workshop/group-X/term_usages_idf.tsv'; 
+
 -- 3.2 - TABLE TERM_USAGES_IDF   
 -- Id can be any Gutenberg doc_id. Try 5307, 19116, 1, 1234
 SELECT DOC, TERM, TF, IDF FROM citylabs_workshop.terms_usages_idf_X
@@ -211,6 +219,15 @@ STORE tfidf INTO '/project/citylabs-workshop/group-X/tfidf.tsv';
 
 Task: Compare TF with TFIDF
 ```
+-- 4.1 - TABLE TFIDF 
+CREATE TABLE citylabs_workshop.tfidf_X
+(DOC STRING, TERM STRING, TFIDF DOUBLE) 
+ROW FORMAT DELIMITED  
+FIELDS TERMINATED BY  '\t' 
+LINES TERMINATED BY '\n' 
+STORED AS TEXTFILE 
+LOCATION '/project/citylabs-workshop/group-X/tfidf.tsv'; 
+
 -- 4.2 - TABLE TFIDF   
 -- Id can be any Gutenberg doc_id. Try 5307, 19116, 1, 1234
 SELECT DOC, TERM, TFIDF FROM citylabs_workshop.tfidf_X
